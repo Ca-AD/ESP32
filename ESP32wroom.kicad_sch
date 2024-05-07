@@ -6762,15 +6762,24 @@
 		)
 		(uuid "fedb0795-eda6-44ff-8191-0eb3523f73a0")
 	)
-	(text "Button_Switch_SMD:SW_SPST_B3U-1000P"
+	(text_box "此项目使用CH9102，没有使用CH340C"
 		(exclude_from_sim no)
-		(at 66.548 124.714 0)
+		(at 102.87 102.87 0)
+		(size 34.29 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "02ed2687-8196-4a2b-85bc-140f42789837")
+		(uuid "1d98c30c-2307-48ec-9630-c5982c7d22ff")
 	)
 	(text "Diode_SMD:Nexperia_CFP3_SOD-123W"
 		(exclude_from_sim no)
@@ -6782,46 +6791,6 @@
 		)
 		(uuid "03a414ac-9abf-4dd3-b771-8cdc364032e9")
 	)
-	(text "Package_TO_SOT_SMD:SC-59"
-		(exclude_from_sim no)
-		(at 43.18 105.664 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "79ab7efb-30d1-4f75-9d78-4500bac8387d")
-	)
-	(text "LED_SMD:LED_0603_1608Metric"
-		(exclude_from_sim no)
-		(at 39.116 48.26 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "a9da6ba1-6d60-448a-b574-1553b98205b1")
-	)
-	(text "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-		(exclude_from_sim no)
-		(at 49.53 17.272 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "ac6ad89a-61fd-49e1-981c-678477b30fb5")
-	)
-	(text "Capacitor_SMD:C_0603_1608Metric"
-		(exclude_from_sim no)
-		(at 58.928 37.846 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "d7b36cf9-82ff-4cf9-adb5-eb29dbef81d5")
-	)
 	(text "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 		(exclude_from_sim no)
 		(at 179.07 102.362 0)
@@ -6831,26 +6800,6 @@
 			)
 		)
 		(uuid "ece61f1a-6ed8-470a-bbcc-12aba627ecb7")
-	)
-	(text "Diode_SMD:D_SOD-523"
-		(exclude_from_sim no)
-		(at 84.074 79.756 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "f2552e23-47fa-4184-951e-69326b9f039c")
-	)
-	(text "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-		(exclude_from_sim no)
-		(at 27.686 105.41 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "fe3b5212-7d1c-4c5e-b935-795513d236a0")
 	)
 	(label "IO17"
 		(at 245.11 69.85 0)
