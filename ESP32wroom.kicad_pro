@@ -492,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "esp32/",
+      "plot": "esp32 gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
